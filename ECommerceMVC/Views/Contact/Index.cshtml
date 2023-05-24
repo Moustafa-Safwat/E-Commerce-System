@@ -1,0 +1,124 @@
+﻿@model ContactViewModel
+
+
+    <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="#">Home</a>
+                    <span class="breadcrumb-item active">Contact</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+  <!-- Contact Start -->
+<div class="container-fluid">
+    <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Contact Us</span></h2>
+    <div class="row px-xl-5">
+        <div class="col-lg-7 mb-5">
+            <div class="contact-form bg-light p-30">
+                <div id="success"></div>
+
+
+               <form asp-action="Index" asp-controller="Contact" method="post" asp-validation-summary="All" class="text-danger">
+
+                    <div class="form-group">
+    <label asp-for="Name" style="color: black;">Name</label>
+    <input asp-for="Name" class="form-control" placeholder="Enter your name here" required />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Email"style="color: black;">Email</label>
+    <input asp-for="Email" class="form-control" placeholder="Enter your Email here" required />
+    <span asp-validation-for="Email" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Subject"style="color: black;">Subject</label>
+    <input asp-for="Subject" class="form-control" placeholder="Subject" required />
+    <span asp-validation-for="Subject" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Message"style="color: black;">Message</label>
+    <textarea asp-for="Message" class="form-control" rows="8" placeholder="Write your Message here" required></textarea>
+    <span asp-validation-for="Message" class="text-danger"></span>
+</div>
+
+
+                    <div>
+                         <button asp-controller="Contact" asp-action="Submit" type="submit" class="btn btn-primary py-2 px-4">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-5 mb-5">
+            <div class="bg-light p-30 mb-30">
+                @*here we used an i frame to display the google map*@
+                <iframe style="width: 600px; height: 450px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.197625999228!2d31.0181883!3d30.0699755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585ba3024b8275%3A0x9fbd976cf0e573b1!2sSmart%20Villages%20Development%20and%20Management%20Company!5e0!3m2!1sen!2seg!4v1620609232925!5m2!1sen!2seg"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+                <div class="bg-light p-30 mb-3">
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i> ITI , 6TH October , Egypt</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>CEI@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+000 000 0000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+
+<script>
+    $(function () {
+        // Validate the contact form
+        $("#contactForm").validate({
+            rules: {
+                Name: "required",
+                Email: {
+                    required: true,
+                    email: true
+                },
+                Subject: "required",
+                Message: "required"
+            },
+            messages: {
+                Name: "Please enter your name",
+                Email: {
+                    required: "Please enter your email",
+                    email: "Please enter a valid email address"
+                },
+                Subject: "Please enter a subject",
+                Message: "Please enter a message"
+            },
+            submitHandler: function (form) {
+                // Handle the form submission with Ajax
+                $.ajax({
+                    type: "POST",
+                    url: form.action,
+                    data: $(form).serialize(),
+                    success: function () {
+                        // Display a success message
+                        $("#success").html("Your message has been sent. Thank you!").show();
+                        // Reset the form
+                        form.reset();
+                    },
+                    error: function () {
+                        // Display an error message
+                        $("#success").html("Sorry, there was a problem sending your message. Please try again.").show();
+                    }
+                });
+                return false;
+            }
+        });
+    });
+</script>

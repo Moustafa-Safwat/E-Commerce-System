@@ -1,0 +1,289 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ECommerceMVC
+build_property.RootNamespace = ECommerceMVC
+build_property.ProjectDir = D:\ITI\BackEnd\MVC\Final Project\E-Commerce-MVC-Project\ECommerceMVC\ECommerceMVC\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITI\BackEnd\MVC\Final Project\E-Commerce-MVC-Project\ECommerceMVC\ECommerceMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/MyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/MyAddresses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeUFkZHJlc3Nlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxPcmRlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/temp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFx0ZW1wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/v01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFx2MDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Account/_Layout02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfTGF5b3V0MDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/AddProductSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJvZHVjdFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/IndexProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXhQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/RolesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZXNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Admin/UsersPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnNQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Brand/AddBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQWRkQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Brand/BrandDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQnJhbmREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Brand/EditBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRWRpdEJyYW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Category/CategoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Category/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/ChangeAccountInformation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlQWNjb3VudEluZm9ybWF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/ChangePassword/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc3dvcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/ContactManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdE1hbmFnZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Country/AddCountry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxBZGRDb3VudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Country/EditCountry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxFZGl0Q291bnRyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Country/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Discount/AddDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcQWRkRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Discount/DiscountDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcRGlzY291bnREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Discount/EditDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcRWRpdERpc2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Discount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/OrderStatus/AddOrderStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJTdGF0dXNcQWRkT3JkZXJTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/OrderStatus/EditOrderStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJTdGF0dXNcRWRpdE9yZGVyU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/OrderStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJTdGF0dXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/OrderStatus/OrderStatusDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJTdGF0dXNcT3JkZXJTdGF0dXNEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Order/AddOrderSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkT3JkZXJTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Order/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/PaymentMethod/AddPaymentMethod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZFxBZGRQYXltZW50TWV0aG9kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/PaymentMethod/EditPaymentMethod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZFxFZGl0UGF5bWVudE1ldGhvZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/PaymentMethod/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Product/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/_CategoryNavPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeU5hdlBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/_PagerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/_Searchpartialview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hwYXJ0aWFsdmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/ShoppingBag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdCYWdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shop/ProductsByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxQcm9kdWN0c0J5Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shop/ShowAllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG93QWxsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shop/_ProductsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxfUHJvZHVjdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI/BackEnd/MVC/Final Project/E-Commerce-MVC-Project/ECommerceMVC/ECommerceMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qf8g2vqecm

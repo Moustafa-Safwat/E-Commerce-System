@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ECommerceMVC.Models.OrderDetails>
+
+@{
+    ViewData["Title"] = "MyOrders";
+}
+
+
+ <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="@Url.Action("MyAccount", "Account")">MyAccount</a>
+                    <span class="breadcrumb-item active">My Orders</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+@foreach (var item in Model)
+{
+    <div class="card my-3">
+        <div class="card-header">
+            Order ID: @item.Id
+        </div>
+        <div class="card-body">
+            <p class="card-text">Order Date: @item.OrderDate</p>
+            <p class="card-text">Total Price: @item.OrderTotalPrice EGP</p>
+            <p class="card-text">Payment Method: @item.PaymentMethod.Name</p>
+            <p class="card-text">Order Status: <span class="badge @((item.OrderStatus.Status.ToLower() == "completed") ? "bg-success" : (item.OrderStatus.Status.ToLower() == "shipped") ? "bg-warning" : "bg-danger")">@item.OrderStatus.Status</span></p>
+            <div class="btn-group">
+                <a asp-action="OrderDetails" asp-controller="Account" asp-route-id="@item.Id" class="btn btn-info mx-2">Details</a>
+                @if (item.OrderStatus.Status.ToLower() == "pending")
+                {
+                    <a asp-action="CancelOrder" asp-controller="Account" asp-route-id="@item.Id" class="btn btn-danger" onclick="return confirm('Are you sure you want to Cancel this order?' )">Cancel</a>
+                }
+            </div>
+        </div>
+    </div>
+}

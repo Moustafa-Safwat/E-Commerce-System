@@ -1,0 +1,163 @@
+﻿@model List<ShoppingProductsViewModel>
+@{
+    ViewData["Title"] = "ShowAllProducts";
+
+    Pager pager = new Pager();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+    int productCount = Model.Count;
+}
+
+<!-- Breadcrumb Start -->
+<div class="container-fluid">
+    <div class="row px-xl-5">
+        <div class="col-12">
+            <nav class="breadcrumb bg-light mb-30">
+                <a class="breadcrumb-item text-dark" href="#">Home</a>
+                <a class="breadcrumb-item text-dark" href="#">Shop</a>
+                <span class="breadcrumb-item active">Shop List</span>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
+<!-- Shop Start -->
+    <div class="row px-xl-5 justify-content-center">
+        <!-- Shop Product Start -->
+        <div class="col-lg-9 col-md-6">
+            <div class="row pb-3 justify-content-center">
+                <div class="col-12 pb-1">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <div>
+                            <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
+                            <button class="btn btn-sm btn-light ml-2"><i class="fa fa-bars"></i></button>
+                        </div>
+                        <div class="ml-2">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sorting</button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#">Latest</a>
+                                    <a class="dropdown-item" href="#">Popularity</a>
+                                    <a class="dropdown-item" href="#">Best Rating</a>
+                                </div>
+                            </div>
+                            <div class="btn-group ml-2">
+                                <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Showing</button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" asp-action="ShowAllProducts" asp-controller="Shop">Show All</a>
+                                    <a class="dropdown-item" asp-action="ShowAllProducts" asp-controller="Shop" asp-route-prodsCount="8" >8</a>
+                                    <a class="dropdown-item" asp-action="ShowAllProducts" asp-controller="Shop" asp-route-prodsCount="16" >16</a>
+                                    <a class="dropdown-item" asp-action="ShowAllProducts" asp-controller="Shop" asp-route-prodsCount="24" >24</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <partial name="_PagerPartial" model="@pager" />
+
+                @foreach (ShoppingProductsViewModel product in Model)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6 pb-1 paginated-list">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="/img/@product.Image" alt="">
+                                <div class="product-action">
+                                <a class="btn btn-outline-dark" asp-action="ProductDetails" asp-controller="Product" asp-route-id="@product.Id"><i>Order Now!</i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                            @if (product.Name.Split(' ').Length <= 4)
+                            {
+                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-id="@product.Id" class="h6 text-decoration-none text-truncate">@product.Name</a>
+                            }
+                            else
+                            {
+                                var words = product.Name.Split(' ');
+                                var newName = string.Join(" ", words.Take(4));
+                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-id="@product.Id" class="h6 text-decoration-none text-truncate">@newName</a>
+                            }
+                            @*<a asp-action="ProductDetails" asp-controller="Product" asp-route-id="@product.Id" class="h6 text-decoration-none text-truncate">@product.Name</a>*@
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    @{
+                                        if (product.PriceAfterDisc == 0)
+                                        {
+                                            <h5>@product.PriceBeforeDisc</h5>
+
+                                            <h6 class="text-muted ml-2"></h6>
+                                        }
+                                        else
+                                        {
+                                            <h5>@product.PriceAfterDisc</h5>
+
+                                            <h6 class="text-muted ml-2"><del>@product.PriceBeforeDisc</del></h6>
+                                        }
+                                    }
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    @{
+                                    int o;
+                                    }
+                                    @for(o = 0; o < product.AverageRating; o++)
+                                    {
+                                    <small class="fas fa-star mr-1 text-primary"></small>
+                                    }
+                                    @if (o < 5)
+                                    {
+                                        for (int m = o; m < 5; m++)
+                                        {
+                                        <small class="far fa-star mr-1 text-primary"></small>
+                                        }
+
+                                    }
+                                    <small>(@product.ReviewCount)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <partial name="_PagerPartial" model="@pager" />
+            </div>
+            <!-- Shop Product End -->
+        </div>
+    </div>
+
+    <!-- Shop End -->
+    <!-- Footer End -->
+    <!-- Include jQuery from a CDN -->
+
+    @*@section Scripts {
+    <script>
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    for (let checkbox of checkboxes) {
+    checkbox.addEventListener('change', function () {
+    if (this.checked) {
+    const val = this.value;
+    // Do something based on the selected color
+    switch (val) {
+    case 'black':
+    // Do something for black
+    break;
+    case 'white':
+    // Do something for white
+    break;
+    case 'red':
+    // Do something for red
+    break;
+    case 'blue':
+    // Do something for blue
+    break;
+    case 'green':
+    // Do something for green
+    break;
+    }
+    }
+    });
+    }
+
+    </script>
+    }*@
